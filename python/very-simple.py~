@@ -1,0 +1,9 @@
+#Remember, hashes exclude comments
+
+print(1+2)
+print('Charles ' + 'Darwin')
+
+Planet = str('Pluto')
+print(Planet)
+exit
+
