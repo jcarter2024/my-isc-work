@@ -1,0 +1,16 @@
+#ESKETIT
+forward = []
+backward = []
+values = ["a", "b", "c"]
+for i in values:
+    forward.append(i)
+    backward.insert(0, i)
+print(str(forward))
+print(str(backward))
+
+forward.reverse()
+print(str(forward))
+if forward == backward:
+    print('eskeetit')
+
+
