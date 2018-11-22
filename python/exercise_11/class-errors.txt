@@ -1,0 +1,16 @@
+Errors and exception code
+
+we can catch exceptions using try and except statements
+i.e try:
+	some functions bla bla
+    except IOError:
+	print('error bla')
+
+#you can raise your own exceptions wit hraise:
+if some func == False:
+	raise Exception("bla")
+
+we can also exceptValueError 
+For any other exception we can use the cover-all Exception
+
+

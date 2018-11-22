@@ -1,0 +1,11 @@
+Python has a logging modules to log info to the terminal or the file or to system handlers or system log files.
+
+We can log certain levels of error severity.
+
+python debugger:
+
+def bla
+	pdb.set_trace()
+
+
+

@@ -1,0 +1,40 @@
+We wish to manipulate the weather data file
+We want to split the columns 
+We can use a dictionary to have a key (column head) associated with a list of values measured.
+We can use the split function list.split("seperator") to assign the result to a variable.
+the result is a list of strings where we can use each list element to assign a key.
+col.strip() takes the white space off both sides
+an example is:
+col = [col.split() for col in header.split(".")]
+
+or otherwise 
+
+for col in header.split(bla):
+	col.append(col.strip())
+
+We can write a funcion to remove white space and reuse it:
+
+def strip(line):
+	vALUES = []
+      for value in line.split()
+	values.append bla
+	
+return values 
+
+then call the function later on 
+
+Now we want to read the data:
+for line in reader (shorthand)
+	data = strip(line)
+
+set up dictionary :
+
+for col in col_names:
+data[col] = []
+
+to use from script
+
+if __name__ = "__main__":
+args = sys.argv[1:]
+for arg in args:
+print('reading from terminal')

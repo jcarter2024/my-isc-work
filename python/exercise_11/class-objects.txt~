@@ -1,0 +1,19 @@
+Object oriented programming
+
+an object can be interrogated for example a string and its methods.
+We can build our own class:
+
+Class Fileanalyser(object):
+    "a class above the rest"
+
+when the class is first created it will call an init
+def __init__(self, path):
+    somefunc to initialise
+
+def max(self) <-- access the data created in init
+    return max(self.data)
+
+if were repeating code for example if this then this bla bla we should use a class
+
+
+
