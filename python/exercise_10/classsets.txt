@@ -1,0 +1,34 @@
+Sets are another type of collecgion
+we can ask questions like the intersection of sets
+i.e which sites have wind and temp data
+
+sets are muteable s = {a, b, c}
+s.add(13)
+s.clear()
+
+we can find unique items in a collection by finding characters in a word and adding to a set, it will only add duplicate letters once
+
+we can check for sub or supersets >=
+union a | b 
+intersection a & b
+difference a-b
+symmetric difference a ^ b
+
+DICTIONARIES
+
+A collection of keys and pairs
+keys are immutable and unique
+stored in order of entry
+this = {'bla' : key , 'blabla' : key2}
+retrieve by putting in key []
+
+print this[bla] = key
+suppose a new key blugh we can assign it valuewrong, if we reassign valuecorrect it will overwrite and delete valuewrong
+
+we can use key 'in' dictionary to see if its in
+
+some useful methods: .keys and .values will print each
+.setdefault adds a key of it doesn't exist and leaves it alone if it dos
+
+items(dictionary) returns all the pairs in tuples
+

@@ -1,0 +1,3 @@
+we import libraries to python, they contain functions to be used
+from math import sqrt as eskeetit
+use argv[0] from command line argument
