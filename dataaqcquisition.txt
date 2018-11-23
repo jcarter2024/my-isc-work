@@ -1,0 +1,7 @@
+
+notes on data acquisition
+
+To connect to a serial port in python use the serial module
+the details come with the wire
+
+
