@@ -1,0 +1,45 @@
+An array is like a list but with same type elements and can be multidimensional 
+NumPy is the standard package for dealing with arrays.
+import numpy as np
+we can np.array a list to convert it 
+we can optionally set the data type
+dtype= np.int32
+
+We can also create arrays in other ways:
+np.zeros((3, 2), dtype = optional)
+np.arange(10)
+
+array indexing:
+similar to lists, for example a[1] gives second element
+we can slice as a[1:8]
+for multidimensional arrays:
+a[row, col] we can still use : interchangeably 
+gedit 
+
+rank = np.dim(a)
+np.size(a) = elements
+shape np.shape(a)
+
+we can multiply element by element with two matrices a and b with a*b
+
+we can test inside an earray 
+answer = a > 5 this does an element by element comparison 
+use np.logical_and(a >3, a < 5)
+or np.logical_not
+
+np.where(condition, a*2, 0) so when true do a*2 or when false do 0
+
+
+a masked array may have bad values 
+mask is always the same shape as the array
+
+a=MA.masked_array
+MA.masked_where(condition, data)
+condition = np.logical_bla
+
+
+
+
+
+
+

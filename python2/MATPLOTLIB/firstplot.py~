@@ -1,0 +1,16 @@
+import matplotlib.pyplot as plt
+
+#plt.plot(range(10))
+#plt.show()
+
+#now lets create a plot
+
+time = list(range(0,7))
+CO2 = [250, 265, 272, 260, 300, 320, 389]
+
+plt.plot(time, CO2, color = 'blue', linestyle= 'dashed')
+plt.ytitle('Time (decade)')
+plt.xaxis('CO2 conc (ppm)')
+plt.show()
+
+

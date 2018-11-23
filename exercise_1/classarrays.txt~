@@ -1,0 +1,4 @@
+An array is like a list but with same type elements and can be multidimensional 
+NumPy is the standard package for dealing with arrays.
+import numpy as np
+
