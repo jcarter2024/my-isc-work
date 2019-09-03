@@ -1,0 +1,35 @@
+Data management:
+
+we need to be able to reuse our collected data, share it, re-analyse it and compare it. 
+ASCII gotchas
+some text processers will embellish the words to make it more readable but this will not translate well in ASCII
+To combat this save as in pure ASCII form
+
+moving between linux and windows also creates differences, i.e ^M at the end of lines (there are linux programs to remove this)
+ASCII generally lacks structure and is not recomended for data storage
+
+CSV (comma seperated value) can be opened in spreadsheets and helps to structure the data.
+BADC-CSV (British Atmospheric Data Centre)
+includes metadata conventions for order
+CSV does not contain white spaces
+
+CSV gotchas
+non ASCII characters will not format well
+data and time formats differ
+
+CSV is a good structure for 1D
+
+Multidimensional data? Use netCDF
+NEtCDF is binary stored not ASCII, it is not human readable
+
+
+METADATA:
+WHo produced it
+How was it done
+Why was it done
+When was it made
+Where does it relate to
+What are the data
+
+xtranormal
+
